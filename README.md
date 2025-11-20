@@ -71,26 +71,39 @@ Once installed, agents and skills activate automatically based on your work cont
 
 ## Available Plugins
 
-### 🌟 Essential Tier
+### 🌟 Essential Tier (3 plugins)
 
 | Plugin | Description | Agents | Skills | Commands |
 |--------|-------------|--------|--------|----------|
+| **testing-toolkit** | Comprehensive testing toolkit for test strategy, coverage analysis, and test data generation | Test Strategist | Test Coverage Analyzer, Test Data Generator | `/run-tests`, `/coverage-report` |
+| **git-workflow-toolkit** | Git workflow and branching strategy toolkit with commit message generation and branch management | Git Expert | Commit Message Generator, Branch Strategy Advisor | `/smart-commit`, `/branch-cleanup` |
 | **developer-toolkit** | Essential development tools for code review, debugging, and refactoring | Code Reviewer, Debugger, Refactoring Architect | Code Review Practices | `/quick-review`, `/debug-trace` |
 
 ---
 
-### 🔧 Tech Tier
+### 🔧 Tech Tier (8 plugins)
 
 | Plugin | Description | Agents | Skills | Commands |
 |--------|-------------|--------|--------|----------|
-| **terraform-toolkit** | Complete Terraform IaC toolkit with module scaffolding, state management, and cost estimation | IaC Architect | Module Scaffolder, State Manager, Cost Estimator, Documentation Generator, Dependency Analyzer, Upgrade Assistant | - |
-| **kubernetes-toolkit** | Kubernetes container orchestration toolkit for production-ready manifests and cluster management | K8s Operations Specialist | Kubernetes Best Practices | - |
+| **docker-toolkit** | Docker containerization toolkit for image optimization and security scanning | Container Architect | Dockerfile Optimizer, Image Security Scanner | `/optimize-image` |
+| **python-toolkit** | Python development toolkit with UV for fast package management and project structure | Python Expert | Python Packaging, Dependency Manager | `/setup-project` |
+| **react-toolkit** | React development toolkit for component architecture and state management | React Architect | Component Patterns, State Management Advisor | `/create-component` |
+| **api-toolkit** | API design toolkit for REST with endpoint design and OpenAPI documentation | API Architect | REST API Designer, API Documentation Generator | `/generate-openapi` |
+| **database-toolkit** | Database design toolkit for schema modeling and query optimization | Database Architect | Schema Designer, Query Optimizer | `/analyze-query` |
+| **aws-toolkit** | AWS cloud toolkit for service selection, cost optimization, and security | AWS Architect | AWS Cost Optimizer, Security Group Analyzer | `/estimate-cost` |
+| **terraform-toolkit** | Complete Terraform IaC toolkit with module scaffolding and state management | IaC Architect | Module Scaffolder, State Manager, Cost Estimator, Documentation Generator, Dependency Analyzer, Upgrade Assistant | - |
+| **kubernetes-toolkit** | Kubernetes container orchestration toolkit for production-ready manifests | K8s Operations Specialist | Kubernetes Best Practices | - |
 
 ---
 
-### 👤 Role Tier
+### 👤 Role Tier (4 plugins)
 
-*Coming soon! Role-based plugins combining multiple technologies for specific job functions.*
+| Plugin | Description | Agents | Skills | Commands |
+|--------|-------------|--------|--------|----------|
+| **frontend-developer** | Comprehensive frontend toolkit combining React, accessibility, performance, and responsive design | Frontend Lead | Accessibility Checker, Performance Optimizer, Responsive Design Advisor | `/audit-accessibility` |
+| **backend-developer** | Comprehensive backend toolkit combining API design, database, security, and scalability | Backend Lead | API Security Checker, Database Migration Helper | `/create-migration` |
+| **devops-engineer** | Comprehensive DevOps toolkit combining CI/CD pipelines, infrastructure automation, and monitoring | DevOps Lead | CI/CD Optimizer, Infrastructure Monitor | `/check-pipeline` |
+| **data-engineer** | Comprehensive data engineering toolkit combining ETL pipelines, data quality, and data architecture | Data Architect | ETL Designer, Data Quality Checker | `/validate-pipeline` |
 
 ## How It Works
 
@@ -292,16 +305,6 @@ See [Plugin Design Manifesto](.docs/plugin-design-manifesto.md) for detailed gui
 - [Claude Commands](.docs/claude-commands.md) - Slash commands guide
 - [Claude Skills](.docs/claude-skills.md) - Agent Skills documentation
 - [Claude Subagents](.docs/claude-subagents.md) - Subagents guide
-
-## Roadmap
-
-- [x] Essential tier plugins (developer-toolkit)
-- [x] Tech tier plugins (terraform, kubernetes)
-- [ ] Role tier plugins (frontend-developer, devops-engineer, data-scientist)
-- [ ] More tech plugins (React, Python, Go, AWS, Azure, GCP)
-- [ ] Community plugin templates
-- [ ] Plugin testing framework
-- [ ] Plugin analytics and usage insights
 
 ## Support
 
