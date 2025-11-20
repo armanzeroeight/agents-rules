@@ -300,6 +300,114 @@
         "skills/component-patterns",
         "skills/state-management-advisor"
       ]
+    },
+    {
+      "name": "api-toolkit",
+      "source": "./plugins/api-toolkit",
+      "description": "API design toolkit for REST and GraphQL with endpoint design, versioning strategies, and OpenAPI documentation generation. Includes api architect agent for strategic API decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "api",
+        "rest",
+        "openapi",
+        "swagger",
+        "api-design"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:api"
+      ],
+      "category": "API Development",
+      "strict": false,
+      "commands": [
+        "commands/generate-openapi.md"
+      ],
+      "agents": [
+        "agents/api-architect.md"
+      ],
+      "skills": [
+        "skills/rest-api-designer",
+        "skills/api-documentation-generator"
+      ]
+    },
+    {
+      "name": "database-toolkit",
+      "source": "./plugins/database-toolkit",
+      "description": "Database design toolkit for schema modeling, query optimization, and indexing strategies. Includes database architect agent for strategic database decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "database",
+        "sql",
+        "schema-design",
+        "query-optimization",
+        "indexing"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:database"
+      ],
+      "category": "Database Development",
+      "strict": false,
+      "commands": [
+        "commands/analyze-query.md"
+      ],
+      "agents": [
+        "agents/database-architect.md"
+      ],
+      "skills": [
+        "skills/schema-designer",
+        "skills/query-optimizer"
+      ]
+    },
+    {
+      "name": "aws-toolkit",
+      "source": "./plugins/aws-toolkit",
+      "description": "AWS cloud toolkit for service selection, cost optimization, and security best practices. Includes aws architect agent for strategic AWS infrastructure decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "aws",
+        "cloud",
+        "cost-optimization",
+        "security",
+        "infrastructure"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:aws"
+      ],
+      "category": "Cloud Infrastructure",
+      "strict": false,
+      "commands": [
+        "commands/estimate-cost.md"
+      ],
+      "agents": [
+        "agents/aws-architect.md"
+      ],
+      "skills": [
+        "skills/aws-cost-optimizer",
+        "skills/security-group-analyzer"
+      ]
     }
   ]
 }
