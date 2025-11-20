@@ -408,6 +408,151 @@
         "skills/aws-cost-optimizer",
         "skills/security-group-analyzer"
       ]
+    },
+    {
+      "name": "frontend-developer",
+      "source": "./plugins/frontend-developer",
+      "description": "Comprehensive frontend development toolkit combining React, accessibility, performance, and responsive design. Includes frontend lead agent for holistic frontend decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "frontend",
+        "react",
+        "accessibility",
+        "performance",
+        "responsive-design"
+      ],
+      "tags": [
+        "tier:role",
+        "role:frontend"
+      ],
+      "category": "Frontend Development",
+      "strict": false,
+      "commands": [
+        "commands/audit-accessibility.md"
+      ],
+      "agents": [
+        "agents/frontend-lead.md"
+      ],
+      "skills": [
+        "skills/accessibility-checker",
+        "skills/performance-optimizer",
+        "skills/responsive-design-advisor"
+      ]
+    },
+    {
+      "name": "backend-developer",
+      "source": "./plugins/backend-developer",
+      "description": "Comprehensive backend development toolkit combining API design, database architecture, security, and scalability. Includes backend lead agent for holistic backend decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "backend",
+        "api",
+        "database",
+        "security",
+        "migrations"
+      ],
+      "tags": [
+        "tier:role",
+        "role:backend"
+      ],
+      "category": "Backend Development",
+      "strict": false,
+      "commands": [
+        "commands/create-migration.md"
+      ],
+      "agents": [
+        "agents/backend-lead.md"
+      ],
+      "skills": [
+        "skills/api-security-checker",
+        "skills/database-migration-helper"
+      ]
+    },
+    {
+      "name": "devops-engineer",
+      "source": "./plugins/devops-engineer",
+      "description": "Comprehensive DevOps toolkit combining CI/CD pipelines, infrastructure automation, and monitoring. Includes devops lead agent for holistic DevOps decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "devops",
+        "ci-cd",
+        "infrastructure",
+        "monitoring",
+        "deployment"
+      ],
+      "tags": [
+        "tier:role",
+        "role:devops"
+      ],
+      "category": "DevOps",
+      "strict": false,
+      "commands": [
+        "commands/check-pipeline.md"
+      ],
+      "agents": [
+        "agents/devops-lead.md"
+      ],
+      "skills": [
+        "skills/ci-cd-optimizer",
+        "skills/infrastructure-monitor"
+      ]
+    },
+    {
+      "name": "data-engineer",
+      "source": "./plugins/data-engineer",
+      "description": "Comprehensive data engineering toolkit combining ETL pipelines, data quality, and data architecture. Includes data architect agent for holistic data engineering decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "data-engineering",
+        "etl",
+        "data-quality",
+        "data-pipelines",
+        "airflow"
+      ],
+      "tags": [
+        "tier:role",
+        "role:data"
+      ],
+      "category": "Data Engineering",
+      "strict": false,
+      "commands": [
+        "commands/validate-pipeline.md"
+      ],
+      "agents": [
+        "agents/data-architect.md"
+      ],
+      "skills": [
+        "skills/etl-designer",
+        "skills/data-quality-checker"
+      ]
     }
   ]
 }
